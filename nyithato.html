@@ -19,7 +19,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 	<link href="kutyahaziko.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.png" />
-	
+	<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
 	<!--[if gte IE 9]>
 		<style type="text/css">
 			.gradient {
@@ -27,19 +29,14 @@
 			}
 		</style>
 	<![endif]-->
-
-
  
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/menu_style_2.css">
-
-
   
 </head>
-
-<body>
-
-<div class="wrapper">
+  
+	<body>
+		<div class="wrapper">
   
   <div class="info-bar">
     <div class="container">
@@ -64,13 +61,13 @@
     
     <div class="kozepre">
                     
-                      <a href="index.html#" class="nav-toggle">MENÜ</a>
+                      <a href="nyithato.html#" class="nav-toggle">MENÜ</a>
     <nav class="cmn-tile-nav">
       <ul class="clearfix">
-          <li class="colour-1"><a href="index.html">Kutyaházainkról</a></li>
+          <li class="colour-2"><a href="index.html">Kutyaházainkról</a></li>
           <li class="colour-2"><a href="kutyahazak.html">Kutyaházak</a></li>
           <!--<li class="colour-2"><a href="kutyahaz-kiegeszitok.html">kiegészítők</a></li>-->
-          <li class="colour-2"><a href="kepgaleria.html">Képgaléria</a></li>
+          <li class="colour-1"><a href="kepgaleria.html">Képgaléria</a></li>
           <li class="colour-2"><a href="kutyakennel.html">Kutyakennel</a></li>
           <li class="colour-2"><a href="elleto.html">Ellető</a></li>
           <li class="colour-2"><a href="elerhetoseg.php.html">Elérhetőség</a></li>
@@ -80,30 +77,37 @@
 
 
 
-    <div class="container content">
-      <h2><span>Kutyaházainkról</span></h2>
-							<p><img class="kep_egyes" src="kepek/kutyahazainkrol-gyuszi-a-kutyahazzal.jpg" align="right" alt=""/>Meleg, kényelmes, biztonságot nyújtó otthon. Ez minden embernek és kutyának is jár, járna. Mi abban tudunk segíteni, hogy kedvence számára biztosítani tudja ezt, kutyabaráti áron. </p>
+<div class="container content">	
+			
+            <h2><span>Képgaléria</span></h2>
+     <div class="clear"></div>	    
+                            <div id="menu_gal">
+							<ul>
+								<li><a href="kepgaleria.html">> Nyeregtetős kutyaházak</a></li>
+								<li><a href="feltetos.html">> Félnyeregtetős kutyaházak</a></li> 
+								<li><a href="teraszos.html">> Teraszos kutyaházak</a></li> 
+								<li class="activepage"><a href="nyithato.html">> Nyítható kutyaházak</a></li>
+								<li><a href="egyedi.html">> Egyedi kutyaházak</a></li>
+							</ul>
+						</div>				
 							
-							<p>Kiskutyánk kapcsán indult a kutyaházkészítés. Mivel fa házikóját nagyon hamar szétrágcsálta, olyan megoldást kerestünk, ami rágásbiztos, meleg, kényelmes. Ezért szakembereink, akik több mint tíz éve lakó-, irodakonténerek gyártásával foglalkoznak, elkészítették az első kutyaházat. </p><br>
-							<p>Úgynevezett szendvicspanelból (acéllemezek között 4cm vastag szigetelés van), amiből az iroda-, lakókonténerek is készülnek. Gyakorlatilag megrághatatlan, kiválóan hőszigetelt, szép kivitelezésű kutyaházat gyártottak belőle.</p> 
-							<p>Úgy éreztük gyakorló kutyatulajdonosként, hogy másoknak is hasonló problémája lehet, igény van a jó minőségű, elérhető áron kapható házikókra. Segítő szándékkal tettük fel az első hirdetéseket. </p>
-							<p><br>
-							Azonnal kiderült, hogy ez valóban így van.</p>
-							<p> Jelenleg már három méretben, különböző felszereléssel lehet rendelni. Egyéni igények szerint a méretektől el tudunk térni. A ház bármilyen színre festhető.  A  kutyaházakat teljes belső burkolattal készítjük el (6mm vastag, rétegelt falemez), amivel kibéleljük az egész kutyaházat, vagy csak az alját kérés szerint. Ez a kutya komfortérzetének növelésére szolgál.	</p>
-		<p>&nbsp;</p>
-							<p> Kérhető az ajtóra hővédő függöny, ami véd az eső, hó és a hideg ellen is. Ez átlátszó, puha, fagyálló PVC szalagokból készül. </p>
-							<p>&nbsp;</p>
-							<p>Egyre bővül a kínálatunk, a nyeregtetős és féltetős típusokat egyaránt készítjük, rugalmasan kezelve a hat alapméretet. Kérésre változtatunk bármelyiken, ideértve az ajtó méretét is. Így valóban személyre, illetve kutyára szabott házakat tudunk szállítani, amelyek szín- és formavilágukban tökéletesen igazodnak az adott környezethez.  </p>
-							<p>Mert a kutyák is megérdemlik!</p>
-							<p><img class="kep_kettes" src="kepek/kutyahazainkrol-kutyahazak-zold-mezoben.jpg"  alt=""/>
-                            <img class="kep_kettes" src="kepek/kutyahazainkrol-kutyahaz-szigetelese.jpg"  alt=""/></p>
-                            
-                            <div class="clear"></div>
-    </div>
+							<p>
+								<a href="kepek2/nyithato/kutyahaz_feher_lapostetos-nyithato_1024x-l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/kutyahaz_feher_lapostetos-nyithato_282x-s.jpg" /></a>
+								<a href="kepek2/nyithato/kutyahaz_feher_lapostetos-nyithato2_1024x-l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/kutyahaz_feher_lapostetos-nyithato2_282x-s.jpg" /></a>
+								<a href="kepek2/nyithato/kutyahaz_zold-piros_nyithato_1024x-l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/kutyahaz_zold-piros_nyithato_282x-s.jpg" /></a>
+                                
+                                <a href="kepek2/nyithato/nyithato_01_l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/nyithato_01_s.jpg" /></a>
+								<a href="kepek2/nyithato/nyithato_02_l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/nyithato_02_s.jpg" /></a>
+								<a href="kepek2/nyithato/nyithato_03_l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/nyithato_03_s.jpg" /></a>
+                                
+								 <a href="kepek2/nyithato/nyithato_04_l.jpg" data-lightbox="kutyahazak"><img class="kep_harmas" src="kepek2/nyithato/nyithato_04_s.jpg" /></a>
+           
+								</p>
+					<div class="clear"></div>						
+					 </div><!-- /container content -->
 
   </main><!-- /main -->
-
-  <footer>
+				 <footer>
     <div class="container">
       <div class="asides clearfix">
         <aside>
@@ -141,8 +145,7 @@
    
     </div>
   </footer><!-- /footer -->
-  
-</div><!-- /#alap -->
+				</div><!-- /#alap -->
 
 <!-- js -->
 <script src="js/classie.js"></script>
@@ -152,5 +155,9 @@
 
 
 </div><!-- /#wrapper -->
-</body>
+
+	</body>
+	<script src="js/prototype.js" type="text/javascript"></script>
+	<script src="js/scriptaculous.js@load=effects,builder" type="text/javascript"></script>
+	<script src="http://kutyahaziko.hu/js/lightbox.js" type="text/javascript"></script>
 </html>
